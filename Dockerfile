@@ -6,7 +6,7 @@ RUN apt-get update && \
     apt-get install -y apache2
 
 # Copy the website files to /var/www/html
-COPY /var/www/html
+COPY . /var/www/html
 
 # Expose port 82
 EXPOSE 82
