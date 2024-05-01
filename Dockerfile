@@ -13,3 +13,5 @@ EXPOSE 82
 
 # Start Apache
 CMD ["service", "apache2", "start"]
+
+docker build -t my-website.
